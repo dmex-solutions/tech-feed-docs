@@ -16,7 +16,6 @@ WORKDIR /usr/src/app
 
 # Copy dependency files
 COPY package*.json ./
-COPY package-lock.json ./
 COPY .npmrc ./
 
 # Install dependencies
